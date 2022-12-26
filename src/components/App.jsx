@@ -59,7 +59,7 @@ function App() {
     // const inputName = event.target.name;
     // const newValue = event.target.value;
 
-    const [value, name] = event.target;
+    const {value, name}= event.target;
 
     setFullName(previous => {
       if (name === "fName") {
